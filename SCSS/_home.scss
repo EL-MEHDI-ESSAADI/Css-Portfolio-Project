@@ -1,0 +1,26 @@
+
+main .home {
+  overflow: hidden;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  .section-content {
+    width: 100%;
+    text-transform: capitalize;
+
+    &_name {
+      font-size: 5rem;
+      padding-bottom: 1rem;
+      border-bottom: 2px solid set-text-color($primary-color);
+      span {
+        color: $secondary-color;
+        font-weight: 700;
+      }
+    }
+
+    h2:last-of-type {
+      margin-top: 10px;
+    }
+  }
+}
